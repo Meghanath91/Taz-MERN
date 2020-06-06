@@ -1,0 +1,17 @@
+db.users.insertOne({
+  _id:3,
+  email:"raj",
+  password:"pass",
+  review:[
+    {
+      author:"babu",
+      rating:5,
+      review:"wow"
+    },
+    {
+      author:"velan",
+      rating:4,
+      review:"cheap"
+    }
+  ]
+})
